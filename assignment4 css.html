@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTFF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family= Jersey 10">
+        <title>assignment 4</title>
+        <style >
+            body{
+                background-image: url('images/abstract-blurred-colorful-background-pastel-colorful-candy-rainbow-bright-blurry-gradient-abstract-moving-background-video.jpg');
+                background-repeat: repeat;
+                background-size: 100%;
+                cursor:pointer;
+            }
+            nav{
+                background-color: brown;
+                height: 50px;
+                position: sticky;
+                top: 0;
+                border-radius: 10px;
+
+            }
+            ul{
+                list-style-type: none;
+                padding-top: 15px;
+                word-spacing: 50px;
+                
+            }
+            li{
+                display: inline-block;
+                
+            }
+            table{
+                margin-top: 20px;
+                border: 4px solid black;
+                border-collapse: collapse;
+            }
+            th,tr,td{
+                border: 4px solid black;
+                border-collapse: collapse;
+                font-size:medium;
+            }
+            marquee{
+                position: sticky;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <nav>
+            <ul>
+            <li><b style="margin-left: -30px; font-size: xx-large; font-family: 'Jersey 10';">LandOfBoxes</b></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Career</li>
+            <li>ContactUs</li>
+
+            </ul>
+
+        </nav>
+        <marquee direction="right">Flat 10% Discount Above 999 order value  </marquee>
+        <form action="" method="post" enctype="">
+            <table width="700" height="900" align="center">
+                <tr>
+                    <th colspan="2" style="font-size: x-large;">Product Order Form <img src="images/download (5).png" alt="path" width="25px"></th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="cname" id="cname"
+                        placeholder="Enter your name" size="50px"></td>
+                </tr>
+                <tr>
+                    <td>Contact No.</td>
+                    <td><input type="number" name="Contactno" id="Contactno" placeholder="Enter Your Contact No"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email" id="email" placeholder="Enter Your Email"></td>
+                </tr>
+                <tr>
+                    <td>Select Your Product</td>
+                    <td><select name="product_name">
+                        <option value="">Select Your Product</option>
+                        <option value="EconoBox">1. The EconoBox: Cost=₹5</option>
+                        <option value="StandardBox">2. The Standard Box: Cost=₹10</option>
+                        <option value="PremiumBox">3. The Premium Box: Cost=₹15</option>
+                        <option value="DeluxeBox">4. The Deluxe Box: Cost=₹20</option>
+                        <option value="SuperDeluxeBox">5. The Super Deluxe Box: Cost=₹30</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Product Quantity</td>
+                    <td>
+                        <select name="Product Quantity" >
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Shipping Address</td>
+                    <td><textarea name=" Shipping Address" id="Address" ></textarea>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Billng Address</td>
+                    <td><textarea name="Billing Address" id="Address" ></textarea>
+                </tr>
+                <tr>
+                    <td>Method Of Payment</td>
+                    <td>Cash On Delivery<input type="radio" name="payment">                        
+                        <br><br> Card Payment<input type="radio" name="payment"><br>
+                        <input type="Number" placeholder="Enter Your Card Number">
+                    <br>Expiry Date<br><input type="number" placeholder="Enter Card Expiry Date"><br>CVV <br><input type="number" placeholder="Enter Your Card CVV">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">Order Confirm? <br><button style="height: 40%;">Confirm</button></tr>
+                </tr>
+                
+            </table>
+
+        </form>
+    </body>
+</html>
